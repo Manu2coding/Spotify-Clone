@@ -21,7 +21,7 @@ const Discover = () => {
         <h2 className="font-bold text-3xl text-white text-left">
           Dicsover {genreTitle}
         </h2>
-        <select
+        {/* <select
           onChange={() => {}}
           name=""
           value=""
@@ -35,7 +35,7 @@ const Discover = () => {
               </option>
             );
           })}
-        </select>
+        </select> */}
       </div>
       <div className="flex flex-wrap sm:justify-start justify-center gap-8">
         {data?.tracks.map((song, i) => {
